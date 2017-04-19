@@ -10,6 +10,8 @@
     </div>
 </div>
 
+<button ng-click="home.test()">ASSIGN</button>
+
 <!--Featured Products Slider-->
 <slick arrows="!application.isTouchDevice" responsive="home.responsive" infinite="true" slides-to-show="7" slides-to-scroll="1" class="slider multiple-items" ng-class="{'has-arrows': !application.isTouchDevice}">
     <div ng-repeat="product in home.productList.Items">

@@ -27,7 +27,11 @@ function ProductBrowseConfig($urlRouterProvider, $stateProvider) {
                     return ocProductBrowse.ListCategories(Catalog);
                 },
                 CategoryTree: function(ocProductBrowse, CategoryList, Catalog) {
-                    return ocProductBrowse.GetCategoryTree(CategoryList, Catalog);
+                    return ocProductBrowse.GetCategoryTree(CategoryList, Catalog)
+                        .then(function(data){
+                            console.log(data);
+                            return data;
+                        })
                 }
             }
         })
