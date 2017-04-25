@@ -24,9 +24,8 @@ function AccountController($exceptionHandler, $uibModal, toastr, OrderCloudSDK, 
 			});
 	};
 
-	vm.flagwarning = flagerrors;
-
-	vm.flagwarning = 1
+	var flagerrors = 1
+	var warning = warnindg()
 
 	vm.flaganotherwarning = 2
 
