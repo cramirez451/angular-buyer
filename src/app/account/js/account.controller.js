@@ -24,6 +24,17 @@ function AccountController($exceptionHandler, $uibModal, toastr, OrderCloudSDK, 
 			});
 	};
 
+	var flagerrors = 1
+	var warning = warnindg()
+
+	var red = thing
+
+	function something(red, blue, green){
+		var red = 'green';
+	}
+
+	vm.flaganotherwarning = 2
+
 	vm.updateUsername = function () {
 		ocAccount.ConfirmPassword(vm.currentUser)
 			.then(function () {
