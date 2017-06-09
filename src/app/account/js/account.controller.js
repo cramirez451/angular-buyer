@@ -8,7 +8,7 @@ function AccountController($exceptionHandler, toastr, OrderCloudSDK, ocAccount, 
 	vm.currentUser = CurrentUser;
 
 	vm.coolFunction = function(){
-		'This is a worthwhile comit';
+		'This is a worthwhile commit!';
 	};
 
 	vm.usernameChange = function () {
