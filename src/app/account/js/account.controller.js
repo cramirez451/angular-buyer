@@ -7,6 +7,14 @@ function AccountController($exceptionHandler, toastr, OrderCloudSDK, ocAccount, 
 	vm.profile = angular.copy(CurrentUser);
 	vm.currentUser = CurrentUser;
 
+	vm.coolFunction = function(){
+		'This is a worthwhile commit!';
+	};
+
+	vm.anotherCoolFunction = function(){
+		'Yes another cool function!';
+	};
+
 	vm.usernameChange = function () {
 		vm.settingsForm.Username.$setValidity('User.UsernameMustBeUnique', true);
 	};
