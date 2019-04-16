@@ -1,12 +1,13 @@
 {
   "appname": "Angular Buyer",
-  "clientid": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+  "clientid": "75730178-E424-4C49-B3D7-17385784B191",
   "anonymous": false,
-  "environment": "prod",
+  "environment": "qa",
   "defaultstate": "home",
   "html5mode": true,
   "bootswatchtheme": null,
   "scope": [
+      "FullAccess",
       "BuyerReader", 
       "MeAdmin", 
       "MeXpAdmin", 
